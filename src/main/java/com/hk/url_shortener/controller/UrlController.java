@@ -40,6 +40,7 @@ public class UrlController {
         }
     }
 
+
     // REST API endpoint to create short URL
     @PostMapping("/api/shorten")
     public ResponseEntity<?> shortenUrl(@RequestBody @Valid UrlRequest request) {
